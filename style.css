@@ -149,12 +149,14 @@ body {
 .links-wrapper {
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
+    justify-content: center;
     align-items: center;
     position: relative;
     width: 378px;
     margin-top: 88px;
     padding-bottom: 40px;
+    gap: 12px;
 }
 
 .link a {
@@ -164,6 +166,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.link-dextools img {
+    box-sizing: border-box;
+    width: 28px;
+    height: 29px;
+    background-color: white;
+    border-radius: 3px;
+    padding: 1px 3px;
 }
 
 .link a img {
